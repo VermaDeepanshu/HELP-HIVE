@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="community.css">
+    <title>Community</title>
+</head>
+
+<body>
+    <header>
+
+        <div class ="head1">
+                <div class="communitylogo">C</div>
+                <div class="communitytext">
+                    <h2 style="background-color:forestgreen;display: inline-block;">Community Platform</h2>
+                </div>
+                <br>
+                <br>
+                <div class="tagline">
+                    <h3 style="display: inline-block; color:rgb(22, 29, 111) ;">Connect and share your Experience</h3>
+                </div>
+                </div>
+            <div class="head2">
+                <div class="cointainerbox">
+                <div class="topbox">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="topbox">
+                    <a href="About.html">About us</a>
+                </div>
+                <div class="topbox">
+                    <a href="Booking.html">My Bookings</a>
+                </div>
+                <div class="topbox">
+                    <a href="contact us">Contact us</a>
+                </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="side1">
+            <div class="experience">
+                <h1>Enter your feedback</h1>
+
+                <form action="submit.php" class="form">
+                    <h2 class="thoughts">Enter your location (city or landmark) :</h2>
+                    <br>
+                    <input type="text" placeholder="chandigarh,Delhi...etc" class="text" required>
+                    <h2 class="thoughts" style="margin-top: 15px;">Enter service provider name or company :</h2>
+                    <br>
+                    <input type="text" placeholder="eg -> urban company...etc." class="text" required>
+                    <h2 class="thoughts" style="margin-top: 15px;">Select the service provided to you :</h2>
+                    <br>
+                    <!-- <input type="text" placeholder="eg -> electrical , plumbing , cleaning...etc." class="text" required> -->
+                    <select id="service" name="service" style="height:35px ;width: 300px;">
+                        <option value="">-- Choose a Service --</option>
+                        <option value="home-cleaning">Home Cleaning</option>
+                        <option value="plumbing">Plumbing</option>
+                        <option value="electrical">Electrical</option>
+                        <option value="delivery">Delivery</option>
+                        <option value="other">Other</option>
+                      </select>
+                    <br>
+                    <h2 class="thoughts" style="margin-top: 15px;">Share your experience :</h2>
+                    <br>
+                    <input type="text" placeholder="Share your experience..." class="comments" required>
+                    <h2 class="thoughts" style="margin-top: 35px;">Mark your satisfaction level :</h2>
+                    <br>
+                    <h2 style="display: inline-block; height:30px;width: 300px;">Rank between 0 to 5 : </h2>
+                    <input type="range" min=0 max="5" class="ranking" required>
+                    <input type="submit" name="Post" value="Post your Feedback"  class="submitbutton" required>
+               </form>
+            </div>
+        </div>
+        <div class="side2">
+            <h1 style="text-align: center;">Community Discussions</h1>
+            <form action=""  class="locationfilter">
+                <h2 class="thoughts">Enter your location to get selcted comments : </h2>
+                <br>
+                <input type="text" placeholder="chandigarh,Delhi...etc" class="text">
+                <input type="submit" name="Post" value="Apply Filter"  class="filterbutton">
+            </form>
+            <div class="side2a"></div>
+        </div>
+
+        <footer class="foot"></footer>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    border: 2px, solid, black;
+    background-color: rgb(152, 222, 217);
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(22, 29, 111);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    border-radius: 30%;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(199, 255, 216);
+}
+
+.logotext {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    background-color: rgb(152, 222, 217);
+    margin-top: 20px;
+    color: rgb(22, 29, 111);
+}
+
+
+.topx {
+    margin-left: 600px;
+    height: 40px;
+    width: 50px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.topy {
+    margin-left: 50px;
+    height: 40px;
+    width: 50px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.topz {
+    margin-left: 50px;
+    height: 40px;
+    width: 50px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+
+.head {
+    margin-top: 10px;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px; 
+    border: 2px, solid, black;
+    background-color: rgb(152, 222, 217);
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox{
+    display: flex;
+    height: 700px;
+    width: 700px;
+    justify-content: centre;
+    margin-top:100px;
+    margin-bottom: 100px;
+    border: 2px,solid,black;
+    background-color: beige;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+   margin-top: 25px;
+}
+
+.form {
+    height: 500px;
+    width: 600px;
+    border: 2px,solid,black;
+}
+
+
+
+.thoughts {
+    color: black;
+    margin-left: 15px;
+}
+
+.text {
+    display: block;
+    height: 30px;
+    width: 400px;
+    margin-left: 15px;
+}
+
+.comments {
+    display: block;
+    height: 100px;
+    width: 400px;
+    overflow: auto;
+    margin-left: 15px;
+}
+
+.emergency{
+    height:20px ;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+
+.foot{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    margin-top: 40px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact us.css">
+    <title>Contact us</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">H<sub style="color:rgb(199, 255, 216);background-color:rgb(22, 29, 111) ">H</sub></div>
+        <div class="logotext"><b style="background-color:rgb(152, 222, 217)">Help Hive</b></div>
+        <a class="topx" href="About.html">Home</a>
+        <a class="topy" href="Booking.html">My Bookings</a>
+        <a class="topz" href="Community.html">Community</a>
+    </div>
+    <main>
+        <div class="mainbox">
+            <div class="heading"><h1>Contact Us</h1></div>
+            <br>
+            <br>
+            <form action="" class="form">
+                <h3 class="thoughts">Enter full name :</h3>
+                        <br>
+                        <input type="text" placeholder="Deepanshu , Harshita..." class="text" required>
+                        <h3 class="thoughts" style="margin-top: 15px;">Enter email id :</h3>
+                        <br>
+                        <input type="text" placeholder="deepanshu108@gmail.com" class="text" required>
+                        <h3 class="thoughts" style="margin-top: 15px;">Select the service provided to you :</h3>
+                        <br>
+                        <!-- <input type="text" placeholder="eg -> electrical , plumbing , cleaning...etc." class="text" required> -->
+                        <select id="service" name="service" style="height: 30px; width: 400px;margin-left: 15px;" required>
+                            <option value="">-- Choose a Service --</option>
+                            <option value="home-cleaning">Home Cleaning</option>
+                            <option value="plumbing">Plumbing</option>
+                            <option value="electrical">Electrical</option>
+                            <option value="delivery">Delivery</option>
+                            <option value="other">Other</option>
+                          </select>
+                        <br>
+                        <h3 class="thoughts" style="margin-top: 15px;">Your Message :</h3>
+                        <br>
+                        <input type="text" placeholder="Ask for help..." class="comments" required>
+                        <input type="submit" name="Message" value="Submit" style="height: 30px;width: 400px;margin-top: 30px;margin-left: 15px;">
+            </form>
+            <div class="emergency">
+                <h4>Need immediate assistance ? call us at + 123 456 789</h4>
+            </div>
+        </div>
+    </main>
+    <footer class="foot"></footer>
+</body>
+</html>
